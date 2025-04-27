@@ -69,7 +69,7 @@ word_sentiment_data
 ```{r}
 library(ggplot2)
 
-word_sentiment_data |> ggplot(aes(word_average_sentiment)) + geom_bar()
+word_sentiment_data |> ggplot(aes(word, word_avg_sent)) + geom_col() + scale_x_discrete(labels = NULL)
 ```
 
 
