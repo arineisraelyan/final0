@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "final0",
     "section": "",
-    "text": "Attaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n\n\n\nJoining with `by = join_by(word)`\nJoining with `by = join_by(word)`\n\n\n[1] 74\n\n\n[1] 74"
+    "text": "Attaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n\n\n\nJoining with `by = join_by(word)`\nJoining with `by = join_by(word)`\n\n\n# A tibble: 881 × 4\n   word       n value word_avg_sent\n   &lt;chr&gt;  &lt;int&gt; &lt;dbl&gt;         &lt;dbl&gt;\n 1 no       275    -1          -275\n 2 like     125     2           250\n 3 good     108     3           324\n 4 yes       74     1            74\n 5 dead      68    -3          -204\n 6 great     67     3           201\n 7 want      61     1            61\n 8 poor      56    -2          -112\n 9 awful     41    -3          -123\n10 better    40     2            80\n# ℹ 871 more rows"
   },
   {
     "objectID": "test.html",
